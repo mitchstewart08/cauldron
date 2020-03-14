@@ -1,0 +1,45 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "diagnostics": false,
+        "removeComments": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowUnreachableCode": false,
+        "emitDeclarationOnly": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "baseUrl": "./src",
+        "rootDir": "./",
+        "emitBOM": true,
+        "noEmitHelpers": false,
+        "noImplicitAny": false,
+        "jsx": "react",
+        "module": "commonjs",
+        "importHelpers": false,
+        "incremental": true,
+        "sourceMap": false,
+        "typeRoots": [
+            "./node_modules/@types/*",
+            "./src/typings/*",
+            "./types/**/*"
+        ],
+        "disableSizeLimit": true,
+        "moduleResolution": "node",
+        "target": "es6",
+        "strict": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "alwaysStrict": true,
+        "charset": "utf8",
+        "checkJs": false,
+        "outDir": "./build",
+        "lib": [
+            "es6",
+            "dom"
+        ]
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules"
+    ],
+    "verbose": true,
+    "execMap": {
+        "ts": "node -r ts-node/register -r dotenv/config"
+    },
+    "watch": [
+        "src/"
+    ],
+    "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "server,query",
+        "DEBUG_COLORS": "enabled",
+        "TS_NODE_PROJECT": "./tsconfig.json",
+        "TS_NODE_FILES": "true"
+    },
+    "ext": "js,json,ts,d.ts"
+}
